@@ -1,0 +1,15 @@
+﻿<Window x:Class="ThisMinesweeperHatesYou.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThisMinesweeperHatesYou"
+        mc:Ignorable="d"
+        Title="Minesweeper" Height="475" Width="415">
+    <Canvas Background="#FFC3C3C3">
+        <Grid x:Name="grid" Height="380" Width="380" Canvas.Left="10" Canvas.Top="44" HorizontalAlignment="Center" VerticalAlignment="Top" Background="White"/>
+        <Rectangle Height="29" Canvas.Left="10" Canvas.Top="7" Width="380" HorizontalAlignment="Center" VerticalAlignment="Top" Stroke="#FF828282"/>
+        <Label Content="001" Canvas.Left="348" Canvas.Top="11" HorizontalAlignment="Left" Height="20" VerticalAlignment="Center" Width="38" FontFamily="Impact" FontStretch="Normal" FontStyle="Normal" FlowDirection="RightToLeft" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Padding="0,0,0,0" ScrollViewer.CanContentScroll="True" FontSize="18"/>
+        <Label Content="099" Canvas.Left="14" Canvas.Top="11" Height="20" Width="38" FontFamily="Impact" FontStretch="Normal" FontStyle="Normal" FlowDirection="RightToLeft" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Padding="0,0,0,0" ScrollViewer.CanContentScroll="True" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+    </Canvas>
+</Window>
